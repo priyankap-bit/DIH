@@ -12,11 +12,10 @@
 }
 
 .viewership-navigation-tab-active {
-    background-color: #7030A0;
-    color: white;
+
+    color: #000;
     font-weight: 500;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+
 }
 .viewership-navigationtab-ul {
   
