@@ -1,6 +1,18 @@
-.social-listening-tile{
-    display: flex;}
-.social-listening-title{
+.social-listening-tile {
+    display: flex;
+
+    /* Test CSS */
+    background-color: #f5f6f8;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+.social-listening-1 {
+    display: flex;
+}
+
+.social-listening-title {
     padding-bottom: 20px;
     padding-top: 20px;
     background-color: #f3f3f3;
@@ -13,6 +25,90 @@
     margin-bottom: 20px;
     margin: 30px;
 }
+
+/* Test CSS */
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    width: 90%;
+    -webkit-box-shadow: 0 0.46875rem 2.1875rem rgb(0 0 0 / 3%), 0 0.9375rem 1.40625rem rgb(0 0 0 / 3%), 0 0.25rem 0.53125rem rgb(0 0 0 / 5%), 0 0.125rem 0.1875rem rgb(0 0 0 / 3%);
+    box-shadow: 0 0.46875rem 2.1875rem rgb(0 0 0 / 3%), 0 0.9375rem 1.40625rem rgb(0 0 0 / 3%), 0 0.25rem 0.53125rem rgb(0 0 0 / 5%), 0 0.125rem 0.1875rem rgb(0 0 0 / 3%);
+    border-width: 0;
+}
+
+.widget-chart {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.widget-chart .widget-chart-content {
+    position: relative;
+    z-index: 5;
+}
+
+.widget-chart .widget-numbers {
+    font-weight: 700;
+    font-size: 2.5rem;
+    display: block;
+    line-height: 1;
+    margin: 1rem auto;
+}
+
+.widget-chart .widget-subheading {
+    margin: -0.5rem 0 0;
+    display: block;
+    opacity: .6;
+}
+
+.widget-chart .widget-description {
+    margin: 1rem 0 0;
+}
+
+.text-success {
+    color: #73a839 !important;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-10 {
+    width: 0.625em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+.pl-1,
+.px-1 {
+    padding-left: 0.25rem !important;
+}
+
+.pl-2 {
+    color: black;
+    padding-left: 1rem;
+}
+
 @media only screen and (max-width: 767px) {
-    .social-listening-tile{display: grid;width: 100%!important;margin: 0px!important;}
+    .social-listening-tile {
+        display: grid;
+        width: 100% !important;
+        margin: 0px !important;
+    }
 }
