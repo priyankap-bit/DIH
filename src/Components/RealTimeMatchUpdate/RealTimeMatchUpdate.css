@@ -2,9 +2,9 @@
    display: flex;
 }
 .realtime-update-summary-item{
-    -webkit-box-reflect: below -1px linear-gradient(to bottom, rgba(0,0,0,0.0), rgb(0 0 0 / 51%));
-    border-radius: 30px;
-    border: 5px solid #000;
+    /* -webkit-box-reflect: below -1px linear-gradient(to bottom, rgba(0,0,0,0.0), rgb(0 0 0 / 51%)); */
+    border-radius: 10px;
+  
     color: #FFF;
     flex: 33.33% 1;
     height: auto;
@@ -23,4 +23,16 @@ h2.realtime-update-api {
     /* .realtime-update-summary-item{margin-top: 100px!important;} */
     .navigationtab-ul li,.viewership-navigationtab-ul li{font-size: 10px!important;}
     
+}
+.realtime-update-summary-item.viewers {
+    box-shadow: 4px 0px 13px 0px #13bcfb;
+    background: #13BCFB;
+    
+}
+.realtime-update-summary-item.watchtime{
+    box-shadow: 4px 0px 13px 0px #8B047A;
+    background:   #8B047A;
+}
+.realtime-update-summary-item.ad-impressions{
+    box-shadow: 4px 0px 13px 0px #FFD354;background:   #FFD354;    ;
 }

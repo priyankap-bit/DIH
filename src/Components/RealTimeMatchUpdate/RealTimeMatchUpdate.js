@@ -37,7 +37,7 @@ const RealTimeMatchUpdate = (props) => {
         realTimeMatchUpdateSummary.watchTime !== null &&
         realTimeMatchUpdateSummary.adImpressions !== null && (
           <div className="real-time-container">
-            <div class="realtime-update-summary-item">
+            <div class="realtime-update-summary-item viewers">
               <img
                 src="/static/images/logos/Viewers.svg"
                 height={50}
@@ -48,7 +48,7 @@ const RealTimeMatchUpdate = (props) => {
                 {realTimeMatchUpdateSummary.viewers[0].yesterday}
               </h2>
             </div>
-            <div class="realtime-update-summary-item">
+            <div class="realtime-update-summary-item watchtime">
               <img
                 src="/static/images/logos/Watchtime.svg"
                 height={50}
@@ -59,13 +59,13 @@ const RealTimeMatchUpdate = (props) => {
                 {realTimeMatchUpdateSummary.watchTime[0].yesterday}
               </h2>
             </div>
-            <div class="realtime-update-summary-item">
+            <div class="realtime-update-summary-item ad-impressions ">
               <img
                 src="/static/images/logos/Ads.svg"
                 height={50}
                 alt="Viewers Logo"
               />
-              <p className="realtime-update-title">Ad Impressions</p>
+              <p className="realtime-update-title ad-impressions">Ad Impressions</p>
               <h2 className="realtime-update-api">
                 {realTimeMatchUpdateSummary.adImpressions[0].yesterday}
               </h2>
