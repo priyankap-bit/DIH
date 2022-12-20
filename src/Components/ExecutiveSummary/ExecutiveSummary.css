@@ -7,8 +7,10 @@
 }
 
 .executive-summary-linear {
+    box-shadow: 2px 2px 18px 0px grey;
     width: 33%;
-    border: 2px solid gray;
+    border-radius: 20px;
+    /* border: 2px solid; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,6 +18,7 @@
 }
 
 .executive-summary-linear-title {
+    border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -79,8 +82,11 @@
 }
 
 .executive-summary-digital {
+    box-shadow: 2px 2px 18px 0px grey;
+    width: 33%;
+    border-radius: 20px;
     width: 66%;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -110,6 +116,7 @@
 }
 
 .executive-summary-digital-title {
+    border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
