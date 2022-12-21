@@ -32,6 +32,7 @@ const ILTTwentySummary = (props) => {
             <ILTTwentyTabsForNavigation
             // isNavigationTabActive={isNavigationTabActive}
             // handleNavigationTabClick={handleNavigationTabClick}
+            
             />
             {/* {
                 console.log(
@@ -40,6 +41,7 @@ const ILTTwentySummary = (props) => {
                     ILTTwentySummaryServices.getWatchTime()
                 )
             } */}
+              
         </div>
     )
 }
