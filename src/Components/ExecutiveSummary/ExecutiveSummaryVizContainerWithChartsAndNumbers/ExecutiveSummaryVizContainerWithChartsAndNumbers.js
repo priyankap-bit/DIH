@@ -26,12 +26,12 @@ const ExecutiveSummaryVizContainerWithChartsAndNumbers = (props) => {
           <div className="digital-viewers">
             <div class="viewer-numbers">
               <div className="exact-summary-viz-number">
-                <p className="exact-summary-viz-number-entity">Viewers</p>
+                <p className="exact-summary-viz-number-entity">CUM Viewers</p>
                 <h2 className="exact-summary-viz-number-value">15.632 M</h2>
               </div>
               <div className="exact-summary-viz-average">
                 <p className="exact-summary-viz-number-entity">
-                  Last 7days avg.
+                  Last 7 days avg.
                 </p>
                 <h4 className="exact-summary-viz-number-avg-value">1.2 M</h4>
                 <p className="exact-summary-viz-number-info">
@@ -81,7 +81,7 @@ const ExecutiveSummaryVizContainerWithChartsAndNumbers = (props) => {
                 </div>
                 <div className="exact-summary-viz-average">
                   <p className="exact-summary-viz-number-entity">
-                    Last 7days avg.
+                    Last 7 days avg.
                   </p>
                   <h4 className="exact-summary-viz-number-avg-value">1.2 M</h4>
                   <p className="exact-summary-viz-number-info">
